@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/farmers-market/static/css/main.2a21f7fe.chunk.css",
+    "main.js": "/farmers-market/static/js/main.4d194a3c.chunk.js",
+    "main.js.map": "/farmers-market/static/js/main.4d194a3c.chunk.js.map",
+    "runtime-main.js": "/farmers-market/static/js/runtime-main.62031cf1.js",
+    "runtime-main.js.map": "/farmers-market/static/js/runtime-main.62031cf1.js.map",
+    "static/js/2.1a57be25.chunk.js": "/farmers-market/static/js/2.1a57be25.chunk.js",
+    "static/js/2.1a57be25.chunk.js.map": "/farmers-market/static/js/2.1a57be25.chunk.js.map",
+    "index.html": "/farmers-market/index.html",
+    "precache-manifest.5a66e2adb5bb7dd26ef4b1b23ad8cb99.js": "/farmers-market/precache-manifest.5a66e2adb5bb7dd26ef4b1b23ad8cb99.js",
+    "service-worker.js": "/farmers-market/service-worker.js",
+    "static/css/main.2a21f7fe.chunk.css.map": "/farmers-market/static/css/main.2a21f7fe.chunk.css.map",
+    "static/js/2.1a57be25.chunk.js.LICENSE.txt": "/farmers-market/static/js/2.1a57be25.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62031cf1.js",
+    "static/js/2.1a57be25.chunk.js",
+    "static/css/main.2a21f7fe.chunk.css",
+    "static/js/main.4d194a3c.chunk.js"
+  ]
+}
