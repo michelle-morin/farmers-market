@@ -8,6 +8,9 @@ function LocationDetails(props){
       <p>Address: {props.location}</p>
       <p>Hours: {props.hours}</p>
       <p>Booth: {props.booth}</p>
+      <div className="image">
+        <img src="https://i.imgur.com/g9K1gc0.jpg" alt="photo of a bird"></img>
+      </div>
     </React.Fragment>
   );
 }

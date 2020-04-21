@@ -14,31 +14,33 @@ class ProduceControl extends React.Component{
 
   handleSubmit = (event) => {
     event.preventDefault();
-    this.setState({month: availableProduce[event.target.value].month, monthlyProduce: availableProduce[event.target.value].selection});
+    this.setState({monthSelected: event.target.value, month: availableProduce[event.target.value].month, monthlyProduce: availableProduce[event.target.value].selection});
   }
 
   render(){
 
     return(
       <React.Fragment>
-        <form>
-          <select value={this.state.monthSelected} onChange={this.handleSubmit}>
-            <option value="0">January</option>
-            <option value="1">Febuary</option>
-            <option value="2">March</option>
-            <option value="3">April</option>
-            <option value="4">May</option>
-            <option value="5">June</option>
-            <option value="6">July</option>
-            <option value="7">August</option>
-            <option value="8">September</option>
-            <option value="9">October</option>
-            <option value="10">November</option>
-            <option value="11">December</option>
-          </select>
-        </form>
-        <ProduceList currentMonth={this.state.month}
-        produceList={this.state.monthlyProduce} />
+        <div className="produce-box">
+          <form>
+            <select value={this.state.monthSelected} onChange={this.handleSubmit}>
+              <option value="0">January</option>
+              <option value="1">Febuary</option>
+              <option value="2">March</option>
+              <option value="3">April</option>
+              <option value="4">May</option>
+              <option value="5">June</option>
+              <option value="6">July</option>
+              <option value="7">August</option>
+              <option value="8">September</option>
+              <option value="9">October</option>
+              <option value="10">November</option>
+              <option value="11">December</option>
+            </select>
+          </form>
+          <ProduceList currentMonth={this.state.month}
+          produceList={this.state.monthlyProduce} />
+        </div>
       </React.Fragment>
     );
   }

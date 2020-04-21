@@ -1,5 +1,5 @@
 # Farmers market
-## By: Ketuah Howard, Geoff Goetz, Patrick Kille, Michelle Morin || April 21st 2020
+#### By: Ketuah Howard, Geoff Goetz, Patrick Kille, Michelle Morin || April 21st 2020
 #### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Description 
