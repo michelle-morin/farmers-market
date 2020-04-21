@@ -5,7 +5,7 @@
 
 Fake Farmer's market website based around allowing users to figure out where to get the produce and what will be available.
 
-Application based around practicing component trees and local state. [Deployed on GitHub pages](https://prkille.github.io/React-Farmers-Market/)
+Application based around practicing component trees and local state. [Deployed on GitHub pages](https://michelle-morin.github.io/farmers-market/)
 
 ## Component Diagram
 ![component structure](ComponentStructure.png)
