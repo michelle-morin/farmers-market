@@ -1,15 +1,16 @@
 import React from 'react';
 import '../App.css';
 import ProduceControl from "./Produce/ProduceControl"
-import Header from "./Shared/Header"
-import Footer from "./Shared/Footer"
+import NavBar from "./Navigation/NavBar"
+import LocationControl from "./Location/LocationControl"
+
 
 function App() {
   return (
     <React.Fragment>
-      <Header />
-      <ProduceControl/>
-      <Footer />
+      <NavBar />
+      <LocationControl />
+      <ProduceControl />
     </React.Fragment>
   );
 }

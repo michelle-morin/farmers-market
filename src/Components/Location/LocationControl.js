@@ -1,5 +1,5 @@
 import React from 'react';
-import DaySelector from './DaySelector.js';
+// import DaySelector from './DaySelector.js';
 import LocationDetails from './LocationDetails.js';
 
 const marketSchedule = [  
@@ -46,20 +46,39 @@ class LocationControl extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentMarketLocation = {}
+      dateSelected: 0,
+      currentMarketLocation: marketSchedule[0]
     }
   }
 
-  handleDeterminingLocation = (selectedDate) => {
-    this.setState({currentMarketLocation: marketSchedule[selectedDate]});
+  handleDeterminingLocation = (day, event) => {
+    event.preventDefault();
+    this.setState({dateSelected: day});
+    this.setState({currentMarketLocation: marketSchedule[this.state.dateSelected]});
   }  
-
+  
   render(){
     return(
       <React.Fragment>
-        <DaySelector />
-        <LocationDetails/>
+        <form onSubmit={this.handleDeterminingLocation}>
+          <select name="day">
+            <option value="0">Sunday</option>
+            <option value="1">Monday</option>
+            <option value="2">Tuesday</option>
+            <option value="3">Wednesday</option>
+            <option value="4">Thursday</option>
+            <option value="5">Friday</option>
+            <option value="6">Saturday</option>
+          </select>
+          <button type='submit'>Submit</button>
+        </form>
+        <LocationDetails day={this.state.currentMarketLocation.day}
+        location={this.state.currentMarketLocation.location}
+        hours={this.state.currentMarketLocation.hours}
+        booth={this.state.currentMarketLocation.booth} />
       </React.Fragment>
     );
   }
 }
+
+export default LocationControl;

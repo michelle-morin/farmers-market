@@ -9,8 +9,7 @@ Fake Farmer's market website based around allowing users to figure out where to 
 Application based around practicing component trees and local state.
 
 ## Component Diagram
-<!-- <img width="745" alt="Screen Shot 2020-04-21 at 9 57 21 AM" src="https://user-images.githubusercontent.com/32975967/79891957-9678b100-83b6-11ea-9d05-3066b0bea24b.png"> -->
-![component structure](ComponentStructure.png);
+![component structure](ComponentStructure.png)
 
 ## Project Specifications
 

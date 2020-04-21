@@ -2,10 +2,7 @@ import React from "react";
 
 function Header(){
   return (
-    <p>
-      Coffee coffee = new Coffee();
-      if (coffee.Empty  
-    </p>
+    <h1>No, this is Patrick.</h1>
   );
 }
 
