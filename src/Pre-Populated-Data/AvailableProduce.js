@@ -1,5 +1,3 @@
-// Notice this second set of data includes a nested array. This means you'll likely need to create a JSX loop within a JSX loop to display this information. We haven't explicitly covered this in our lessons. Try your best to apply both your general knowledge of programmatic looping, and your new knowledge about JSX looping to determine a solution.
-
 export const availableProduce = [  
   {  
      month: "January",

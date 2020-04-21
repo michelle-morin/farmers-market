@@ -1,6 +1,6 @@
 import React from "react";
 import ProduceList from "./ProduceList";
-import { availableProduce } from "../../Pre-Populated-Data/SeasonalProduce";
+import { availableProduce } from "../../Pre-Populated-Data/AvailableProduce";
 
 class ProduceControl extends React.Component{
   constructor(props){
