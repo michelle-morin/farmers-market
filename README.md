@@ -1,68 +1,75 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Farmers market
+## By: Ketuah Howard, Geoff Goetz, Patrick Kille, Michelle Morin || April 21st 2020
+#### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Description 
 
-In the project directory, you can run:
+Fake Farmer's market website based around allowing users to figure out where to get the produce and what will be available.
 
-### `npm start`
+Application based around practicing component trees and state.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Preview
+*component diagram*
+<img width="745" alt="Screen Shot 2020-04-21 at 9 57 21 AM" src="https://user-images.githubusercontent.com/32975967/79891957-9678b100-83b6-11ea-9d05-3066b0bea24b.png">
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Project Specifications
 
-### `npm test`
+### User Stories
+- As a user, I want to be able to enter a date and discover where farmers market will be for that date
+- As a user, I want to be able to see what produce is available on the current month
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+|Behavior|Input|Output|
+|---|:---:|:---:|
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup/Installation Requirements
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+#### Node install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+###### For macOS:
+_If Homebrew is not installed on your computer already, then install Homebrew by entering the following two commands in Terminal:_
+* $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+* $ echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile
 
-### `npm run eject`
+_Install Git with the following command:_
+* $ brew install git
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+_Next, install Node.js by entering the following command in Terminal:_
+* $ brew install node
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+###### For Windows:
+_Please visit the [Node.js website](https://nodejs.org/en/download/) for installation instructions._
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Install this application
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+_Clone this repository via Terminal using the following commands:_
+* _$ cd desktop_
+* _$ git clone {url to this repo}_
+* _$ cd farmers-market_
+_Then, confirm that you have navigated to the farmers-market project directory by entering "pwd" in Terminal._
 
-## Learn More
+_Next, install npm at the project's root directory via the following commands:_
+* _$ npm install_
+* _$ npm run build_
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+_Open the contents of the directory in a text editor or IDE of your choice (e.g., to open the contents of the directory in Visual Studio Code on macOS, enter the command "code ." in Terminal)._
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Known Bugs
 
-### Code Splitting
+_No known bugs at this time._
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+## Technologies Used
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+* Node.js
+* Webpack
+* npm
+* Javascript
+* jQuery
+* React
 
-### Making a Progressive Web App
+### License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+[MIT](https://choosealicense.com/licenses/mit/)
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright &copy; 2020 **_Keturah Howard, Patrick Kille, Michelle Morin, Geoff Goetz_**
