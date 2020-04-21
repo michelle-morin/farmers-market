@@ -6,21 +6,17 @@
 
 Fake Farmer's market website based around allowing users to figure out where to get the produce and what will be available.
 
-Application based around practicing component trees and state.
+Application based around practicing component trees and local state.
 
-## Preview
-*component diagram*
-<img width="745" alt="Screen Shot 2020-04-21 at 9 57 21 AM" src="https://user-images.githubusercontent.com/32975967/79891957-9678b100-83b6-11ea-9d05-3066b0bea24b.png">
+## Component Diagram
+<!-- <img width="745" alt="Screen Shot 2020-04-21 at 9 57 21 AM" src="https://user-images.githubusercontent.com/32975967/79891957-9678b100-83b6-11ea-9d05-3066b0bea24b.png"> -->
+![component structure](ComponentStructure.png);
 
 ## Project Specifications
 
 ### User Stories
 - As a user, I want to be able to enter a date and discover where farmers market will be for that date
 - As a user, I want to be able to see what produce is available on the current month
-
-|Behavior|Input|Output|
-|---|:---:|:---:|
-
 
 ## Setup/Installation Requirements
 
@@ -57,7 +53,6 @@ _Open the contents of the directory in a text editor or IDE of your choice (e.g.
 ## Known Bugs
 
 _No known bugs at this time._
-
 
 ## Technologies Used
 

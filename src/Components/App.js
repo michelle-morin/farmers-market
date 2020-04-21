@@ -1,11 +1,16 @@
 import React from 'react';
-import logo from '../logo.svg';
 import '../App.css';
-import {Patrick} from '.Patrick.js';
+import ProduceControl from "./Produce/ProduceControl"
+import Header from "./Shared/Header"
+import Footer from "./Shared/Footer"
 
 function App() {
   return (
-    Patrick(false)
+    <React.Fragment>
+      <Header />
+      <ProduceControl/>
+      <Footer />
+    </React.Fragment>
   );
 }
 

@@ -1,3 +1,7 @@
+import React from 'react';
+import DaySelector from './DaySelector.js';
+import LocationDetails from './LocationDetails.js';
+
 const marketSchedule = [  
   {  
      day: "Sunday",
@@ -35,4 +39,27 @@ const marketSchedule = [
      hours: "10:00am - 1:30pm",
      booth: "9G"
   }
- ];
+];
+
+class LocationControl extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      currentMarketLocation = {}
+    }
+  }
+
+  handleDeterminingLocation = (selectedDate) => {
+    this.setState({currentMarketLocation: marketSchedule[selectedDate]});
+  }  
+
+  render(){
+    return(
+      <React.Fragment>
+        <DaySelector />
+        <LocationDetails/>
+      </React.Fragment>
+    );
+  }
+}
