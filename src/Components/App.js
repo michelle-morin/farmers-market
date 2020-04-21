@@ -8,9 +8,11 @@ import LocationControl from "./Location/LocationControl"
 function App() {
   return (
     <React.Fragment>
-      <NavBar />
-      <LocationControl />
-      <ProduceControl />
+      <div className="App">
+        <NavBar />
+        <LocationControl />
+        <ProduceControl />
+      </div>
     </React.Fragment>
   );
 }

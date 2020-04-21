@@ -50,12 +50,8 @@ class LocationControl extends React.Component {
     }
   }
 
-  handleDeterminingLocation = (event) => {
-    event.preventDefault();
-    console.log("BURN IT ALL!!!!!");
-  }
-
   handleSubmit = (event) => {
+    event.preventDefault();
     this.setState({dateSelected: event.target.value, currentMarketLocation: marketSchedule[event.target.value]});
   }  
   
@@ -63,7 +59,7 @@ class LocationControl extends React.Component {
 
     return(
       <React.Fragment>
-        <form onSubmit={this.handleDeterminingLocation}>
+        <form>
           <select value={this.state.dateSelected} onChange={this.handleSubmit} name="date">
             <option value="0">Sunday</option>
             <option value="1">Monday</option>
