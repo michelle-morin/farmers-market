@@ -1,12 +1,11 @@
 # Farmers market
 #### By: Ketuah Howard, Geoff Goetz, Patrick Kille, Michelle Morin || April 21st 2020
-#### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Description 
 
 Fake Farmer's market website based around allowing users to figure out where to get the produce and what will be available.
 
-Application based around practicing component trees and local state.
+Application based around practicing component trees and local state. [Deployed on GitHub pages](https://prkille.github.io/React-Farmers-Market/)
 
 ## Component Diagram
 ![component structure](ComponentStructure.png)
