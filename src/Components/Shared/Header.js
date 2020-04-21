@@ -2,7 +2,8 @@ import React from "react";
 
 function Header(){
   return (
-    <h1>No, this is Patrick.</h1>
+    <h1>Avery's Organics</h1>
+    <p>So not Patrick then?</p>
   );
 }
 

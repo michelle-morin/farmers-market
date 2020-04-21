@@ -1,5 +1,4 @@
 import React from 'react';
-// import DaySelector from './DaySelector.js';
 import LocationDetails from './LocationDetails.js';
 
 const marketSchedule = [  
@@ -51,28 +50,31 @@ class LocationControl extends React.Component {
     }
   }
 
-  handleDeterminingLocation = (day, event) => {
+  handleDeterminingLocation = (event) => {
     event.preventDefault();
-    this.setState({dateSelected: day});
-    this.setState({currentMarketLocation: marketSchedule[this.state.dateSelected]});
+    console.log("BURN IT ALL!!!!!");
+  }
+
+  handleSubmit = (event) => {
+    this.setState({dateSelected: event.target.value, currentMarketLocation: marketSchedule[event.target.value]});
   }  
   
   render(){
+
     return(
       <React.Fragment>
         <form onSubmit={this.handleDeterminingLocation}>
-          <select name="day">
+          <select value={this.state.dateSelected} onChange={this.handleSubmit} name="date">
             <option value="0">Sunday</option>
             <option value="1">Monday</option>
             <option value="2">Tuesday</option>
             <option value="3">Wednesday</option>
             <option value="4">Thursday</option>
-            <option value="5">Friday</option>
-            <option value="6">Saturday</option>
+            <option value="5">Saturday</option>
           </select>
-          <button type='submit'>Submit</button>
         </form>
-        <LocationDetails day={this.state.currentMarketLocation.day}
+        <LocationDetails 
+        day={this.state.currentMarketLocation.day}
         location={this.state.currentMarketLocation.location}
         hours={this.state.currentMarketLocation.hours}
         booth={this.state.currentMarketLocation.booth} />

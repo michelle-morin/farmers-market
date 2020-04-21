@@ -5,3 +5,5 @@ function HomeButton(){
     <a href="index.html">HOME</a>
   )
 }
+
+export default HomeButton;
